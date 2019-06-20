@@ -34,3 +34,7 @@ header {
 .info ul{
     list-style:none;
 }
+
+.important {
+    background-color: goldenrod;
+}
