@@ -1,0 +1,36 @@
+main {    
+width: 80%;
+ margin: auto;
+ 
+}
+body{
+    background-color: steelblue;
+    margin: 0
+    
+}
+
+section {
+    background-color: bisque;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: black;
+    color: cornflowerblue;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+#about {
+    background-color: lightgrey ;
+}
+
+.info {
+    text-align: center
+}
+
+.info ul{
+    list-style:none;
+}

@@ -6,7 +6,7 @@ const playfair = [
     'Mitch', 'Jake'
 ]
 
-$(document).ready(onReady); 
+$(document).ready(onReady);
 
 // function calls renderStudentList () and passes
 // playfair array into it.  
@@ -19,18 +19,19 @@ function onReady() {
     // can filter the event to something new (dynamically generated)
     // do this with the 2nd arg to on ('.student )
     $('#students').on('click', '.student', showAwesomeAlert) // the '.student' was created at
-                                                            // the bottom to specify on who we
-                                                            //actually clicked.
+    // the bottom to specify on who we
+    //actually clicked.
 }
 
 // This function will be called when we click on a student
 // it will show an alert saying tht student is awesome.
-function showAwesomeAlert(event){
-    console.log('Event', event);
-    console.log(this);// 'this' is contextual it varies depending on where it is.
-    
-    alert('Check console.log')
-    
+function showAwesomeAlert(event) {
+    // We will do more with events later, but ignoring for now.
+    // console.log('Event', event);
+    //console.log(this);// 'this' is contextual it varies depending on where it is.
+    let studentName = $(this).text();
+    alert(`${studentName} is awesome!!!`)
+
 }
 
 
